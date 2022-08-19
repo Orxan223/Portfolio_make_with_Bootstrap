@@ -1,0 +1,377 @@
+body {
+    background: url(../images/wall.png);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 2px solid #ccc;
+    background-color: white;
+    /* position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99; */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+/* }
+.left {
+    display: inline-block;
+} */
+
+.left a {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 28px 10px;
+    line-height: 3;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#main .col-lg-9  {
+    display: flex;
+    margin-top: 25px;
+   
+}
+.col-lg-9 {
+    width: 71%;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+nav a {
+    color: #999;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 10px;
+
+}
+
+
+nav a+a::before {
+    content: "|";
+    color: rgb(247, 239, 239);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+
+.main-container, #portfolio-container, #contact-container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+/* #left {
+    width: 68%;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 40px;
+
+
+} */
+#main .box  {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+#main .box h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin-top: 38px;
+    margin: 40px 0 20px 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.box>.info {
+    display: flex;
+}
+.box>.info>img {
+    height: 220px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+.box>.info>p {
+    font-family: Arial, "Helvetica Neue", ;
+    font-size: 17px;
+    line-height: 35px;
+    color: #777;
+    letter-spacing: 1.1px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+
+
+
+#main .col-lg-3 {
+    margin-top: 25px;
+    background-color: white;
+    height: 205px;
+    padding: 21px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+
+
+#main .col-lg-3> h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+
+.icon>a>img {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+
+.icon {
+    display: flex;
+    text-align: center;
+}
+
+
+footer .col-lg-12 {
+    padding: 40px 0;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+
+
+/* Portfolio */
+
+
+
+#portfolio-container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#portfolio-container .col-lg-9 {
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+
+#portfolio-container .col-lg-3 {
+    background-color: white;
+    height: 205px;
+    margin-top: 25px;
+    padding: 21px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+#portfolio-container  .box {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 10px 0 30px;
+
+}
+
+#portfolio-container  .box h3 {
+    position: absolute;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    bottom: 20px;
+    width: 101%;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    bottom: 10px;
+
+}
+
+#portfolio-container  .col-lg-3> h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+#portfolio-container  .box img {
+    width: 275px;
+    height: 200px;
+    float: left;
+
+}
+
+
+#portfolio-container h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin: 40px 0 20px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+
+
+/* contact */
+
+
+#contact-container {
+    width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#contact-container .col-lg-9 {
+    background-color: white;
+    margin-top: 25px;
+}
+
+#contact-container .col-lg-9 > h1 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    margin: 40px 0 20px 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+
+#contact-container .col-lg-9 #contact {
+    float: left;
+    width: 274px;
+    margin: 10px 10px 0 30px;
+
+}
+
+
+#contact-container .col-lg-9 #contact>.box1>input {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 565px;
+    margin: 10px 0;
+}
+
+
+#contact-container .col-lg-9 #contact .box1 label {
+    color: #747474;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+#contact-container  .col-lg-3 {
+    background-color: white;
+    margin-top: 25px;
+    height: 205px;
+    margin-top: 25px;
+    padding: 21px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#contact-container  .col-lg-3> h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 3px solid #ddd;
+    color: #4aaaa5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+#contact-container .col-lg-9 > #contact > .box2 > textarea {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 180px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    width: 565px;
+    margin: 10px 0;
+}
+
+
+#contact-container .col-lg-9 > #contact > .box2 > label {
+    color: #747474;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#contact-container .col-lg-9 #contact>input {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin-bottom: 30px;
+    margin-top: 7px;
+}
